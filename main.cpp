@@ -10,18 +10,6 @@
 char exp[400];
 int pos;
 
-
-int T(int *Tval)
-{
-if (exp[pos]>='0' && exp[pos]<='9')
-   {
-   *Tval=exp[pos]-'0';
-   pos++;
-   return 1;
-   }
-return 0;
-}
-
 int E()
 {
   if (exp[pos] == '(')
